@@ -30,7 +30,7 @@ info:
       target: @java.version@
 eureka:
   client:
-    healthcheck:`
+    healthcheck:
       enabled: true             # 启用健康检查
     service-url:
       defaultZone: http://user:123456@eureka1:8761/eureka/,http://user:123456@eureka2:8762/eureka/
